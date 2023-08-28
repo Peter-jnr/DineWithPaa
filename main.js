@@ -32,15 +32,3 @@ AOS.init({
   achorPlacement: 'top-bottom'
 })
 
-
-const open = document.getElementbyID('open');
-const close = document.getElementbyID('close');
-const modal_container = document.getElementbyID('modal_container');
-
-open.addEventListener('click',()=> {
-  modal_container.classList.add('show');
-})
-
-close.addEventListener('click',()=> {
-  modal_container.classList.remove('show');
-})
